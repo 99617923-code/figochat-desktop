@@ -27,7 +27,7 @@ let isQuitting = false;
 const isDev = process.env.NODE_ENV === 'development';
 
 // 服务器 URL
-const SERVER_URL = store.get('serverUrl');
+const SERVER_URL = 'https://figochat.manus.space';
 
 /**
  * 创建主窗口
