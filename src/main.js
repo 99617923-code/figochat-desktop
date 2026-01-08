@@ -9,7 +9,7 @@ const store = new Store({
     startMinimized: false,
     minimizeToTray: true,
     autoLaunch: false,
-    serverUrl: 'https://jiq2T6cY64FhKqToyECM7V.manus.space' // FigoChat 正式服务器
+    serverUrl: 'https://figochat.manus.space' // FigoChat 正式服务器
   }
 });
 
