@@ -12,6 +12,11 @@ const store = new Store({
     serverUrl: 'https://figochat.manus.space' // FigoChat 正式服务器
   }
 });
+// 强制更新旧域名配置
+const currentUrl = store.get('serverUrl');
+if (currentUrl && currentUrl.includes('jiq2t6cy64fhkqtoyecm7v')) {
+  store.set('serverUrl', 'https://figochat.manus.space' );
+}
 
 // 全局变量
 let mainWindow = null;
