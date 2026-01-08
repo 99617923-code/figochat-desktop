@@ -1,6 +1,6 @@
 {
   "name": "figochat-desktop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "FigoChat 桌面客户端 - 优雅的实时聊天应用",
   "main": "src/main.js",
   "author": {
