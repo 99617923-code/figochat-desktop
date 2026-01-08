@@ -1,13 +1,13 @@
 {
   "name": "figochat-desktop",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "FigoChat 桌面客户端 - 优雅的实时聊天应用",
   "main": "src/main.js",
   "author": {
     "name": "FigoChat Team",
-    "email": "support@figochat.com"
+    "email": "fiomo@qq.com"
   },
-  "homepage": "https://figochat.com",
+  "homepage": "https://www.figochat.com",
   "license": "MIT",
   "scripts": {
     "start": "electron .",
@@ -33,7 +33,7 @@
   "build": {
     "appId": "com.figochat.desktop",
     "productName": "FigoChat",
-    "copyright": "Copyright © 2024 FigoChat",
+    "copyright": "Copyright © 2026 FigoChat",
     "directories": {
       "output": "dist",
       "buildResources": "assets"
